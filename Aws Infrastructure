@@ -1,0 +1,30 @@
+Understanding AWS Infrastructure: A Complete Beginner’s Guide
+
+Cloud computing has transformed how modern applications are built, deployed, and scaled. At the heart of Amazon Web Services (AWS) lies a powerful and globally distributed infrastructure that enables businesses to run workloads securely and efficiently. This blog explains AWS Infrastructure from the ground up, including regions, availability zones, virtualization, and hypervisors.
+What is Infrastructure (Infra)?
+Infrastructure refers to the foundational components required to run applications and IT services. Traditionally, infrastructure included physical servers, storage devices, networking hardware, data centers, and power and cooling systems.
+In cloud computing, infrastructure is virtualized and delivered as a service, meaning users no longer need to purchase or manage physical hardware.
+AWS Infrastructure Includes:
+- Physical data centers across the globe
+- Servers, storage, and networking hardware
+- Virtualization technologies
+- Security and monitoring systems
+AWS provides this infrastructure on-demand, scalable, and pay-as-you-go.
+What Are AWS Regions?
+An AWS Region is a geographical location where AWS has multiple data centers. Regions are completely independent and designed for fault isolation. Users choose regions based on latency, compliance, cost, and service availability.
+Examples:
+- us-east-1 – North Virginia
+- eu-west-1 – Ireland
+- ap-south-1 – Mumbai
+What Are Availability Zones (AZs)?
+Availability Zones are physically separate data centers within an AWS Region. Each AZ has independent power, cooling, and networking, connected via low-latency private links.
+Best practice: Deploy applications across multiple AZs to avoid downtime.
+How Virtualization Works in AWS
+Virtualization allows multiple virtual machines to run on a single physical server. Each VM has its own operating system and allocated resources, improving efficiency and scalability.
+How the Hypervisor Works
+A hypervisor sits between physical hardware and virtual machines, managing VM creation, resource allocation, and isolation.
+AWS Hypervisor Technology
+AWS uses Type 1 hypervisors and the AWS Nitro System to offload virtualization, networking, and storage to dedicated hardware, providing near bare-metal performance and enhanced security.
+Conclusion
+AWS Infrastructure combines global regions, isolated availability zones, advanced virtualization, and high-performance hypervisors to provide a secure, scalable, and reliable cloud platform.
+
